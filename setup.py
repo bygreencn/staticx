@@ -83,6 +83,7 @@ setup(
     entry_points = {
         'console_scripts': [
             'staticx = staticx.__main__:main',
+            'sx-extract = staticx.extract:main',
         ]
     },
     install_requires = [

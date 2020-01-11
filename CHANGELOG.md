@@ -5,6 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Added
 - Staticx binaries now respect `$TMPDIR` for creating temporary directory ([#101])
+- Added `sx-extract` archive extraction/dumping tool ([#114])
 
 ### Changed
 - Ensure user program is always marked executable in archive ([#112])
@@ -147,3 +148,4 @@ Initial release
 [#102]: https://github.com/JonathonReinhart/staticx/pull/102
 [#111]: https://github.com/JonathonReinhart/staticx/pull/111
 [#112]: https://github.com/JonathonReinhart/staticx/pull/112
+[#114]: https://github.com/JonathonReinhart/staticx/pull/114
